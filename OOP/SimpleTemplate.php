@@ -1,6 +1,6 @@
 <?php
 	class SimpleTemplate {
-		private $_template;
+		protected $_template;
 		function __construct($template) {
 			$this->_template=$template;
 		}
